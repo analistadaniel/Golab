@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/28 10:22:18.000.539,=C:\Users\00247ATI\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/09/28 10:22:47.000.417,C:\Users\00247ATI\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\00247ATI\Golab\UnPrincipal.dfm</Transaction>
+    <Transaction>2020/09/28 10:22:47.000.417,C:\Users\00247ATI\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\00247ATI\Golab\UnPrincipal.pas</Transaction>
+    <Transaction>2020/09/28 10:22:53.000.141,C:\Users\00247ATI\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\00247ATI\Golab\Golab.dproj</Transaction>
+    <Transaction>2020/09/28 10:50:12.000.775,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 10:50:25.000.220,C:\Users\00247ATI\Golab\Unit1.dfm=C:\Users\00247ATI\Golab\unDM.dfm</Transaction>
+    <Transaction>2020/09/28 10:50:25.000.220,C:\Users\00247ATI\Golab\Unit1.pas=C:\Users\00247ATI\Golab\unDM.pas</Transaction>
+    <Transaction>2020/09/28 11:37:48.000.527,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 11:38:12.000.321,C:\Users\00247ATI\Golab\Unit1.pas=C:\Users\00247ATI\Golab\unCadFunc.pas</Transaction>
+    <Transaction>2020/09/28 11:38:12.000.321,C:\Users\00247ATI\Golab\Unit1.dfm=C:\Users\00247ATI\Golab\unCadFunc.dfm</Transaction>
+    <Transaction>2020/09/28 14:08:21.000.973,=D:\BKP Daniel\Delphi 7 Progs\Controle de Acessos - Delphi\UfrmLogin.pas</Transaction>
+    <Transaction>2020/09/28 14:08:56.000.681,D:\BKP Daniel\Delphi 7 Progs\Controle de Acessos - Delphi\UfrmLogin.pas=C:\Users\00247ATI\Golab\unLogin.pas</Transaction>
+    <Transaction>2020/09/28 14:08:56.000.681,D:\BKP Daniel\Delphi 7 Progs\Controle de Acessos - Delphi\UfrmLogin.dfm=C:\Users\00247ATI\Golab\unLogin.dfm</Transaction>
+    <Transaction>2020/09/28 14:10:56.000.222,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 14:11:17.000.550,C:\Users\00247ATI\Golab\Unit1.pas=C:\Users\00247ATI\Golab\unCadUser.pas</Transaction>
+    <Transaction>2020/09/28 14:11:17.000.550,C:\Users\00247ATI\Golab\Unit1.dfm=C:\Users\00247ATI\Golab\unCadUser.dfm</Transaction>
+    <Transaction>2020/09/28 16:38:35.000.075,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 16:38:52.000.625,C:\Users\00247ATI\Golab\unCadTipoCombustivel.dfm=C:\Users\00247ATI\Golab\Unit1.dfm</Transaction>
+    <Transaction>2020/09/28 16:38:52.000.625,C:\Users\00247ATI\Golab\unCadTipoCombustivel.pas=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 17:02:29.000.046,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 17:02:38.000.393,C:\Users\00247ATI\Golab\unCadPosto.pas=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 17:02:38.000.393,C:\Users\00247ATI\Golab\unCadPosto.dfm=C:\Users\00247ATI\Golab\Unit1.dfm</Transaction>
+    <Transaction>2020/09/28 21:10:36.000.930,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/28 21:10:47.000.651,C:\Users\00247ATI\Golab\Unit1.dfm=C:\Users\00247ATI\Golab\unCadFormaPgto.dfm</Transaction>
+    <Transaction>2020/09/28 21:10:47.000.651,C:\Users\00247ATI\Golab\Unit1.pas=C:\Users\00247ATI\Golab\unCadFormaPgto.pas</Transaction>
+    <Transaction>2020/09/29 08:02:30.000.614,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/29 08:02:51.000.996,C:\Users\00247ATI\Golab\Unit1.pas=C:\Users\00247ATI\Golab\unCadBomba.pas</Transaction>
+    <Transaction>2020/09/29 08:02:51.000.996,C:\Users\00247ATI\Golab\Unit1.dfm=C:\Users\00247ATI\Golab\unCadBomba.dfm</Transaction>
+    <Transaction>2020/09/29 08:59:28.000.724,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/29 08:59:48.000.467,C:\Users\00247ATI\Golab\Unit1.dfm=C:\Users\00247ATI\Golab\unCadBico.dfm</Transaction>
+    <Transaction>2020/09/29 08:59:48.000.467,C:\Users\00247ATI\Golab\Unit1.pas=C:\Users\00247ATI\Golab\unCadBico.pas</Transaction>
+    <Transaction>2020/09/29 14:43:28.000.323,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/29 14:45:20.000.527,C:\Users\00247ATI\Golab\unCadAliquota.dfm=C:\Users\00247ATI\Golab\Unit1.dfm</Transaction>
+    <Transaction>2020/09/29 14:45:20.000.527,C:\Users\00247ATI\Golab\unCadAliquota.pas=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/29 15:30:19.000.454,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/29 15:31:25.000.658,C:\Users\00247ATI\Golab\unLancAbast.dfm=C:\Users\00247ATI\Golab\Unit1.dfm</Transaction>
+    <Transaction>2020/09/29 15:31:25.000.658,C:\Users\00247ATI\Golab\unLancAbast.pas=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/30 13:48:00.498,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/30 13:48:23.781,C:\Users\00247ATI\Golab\unCadFPgto.dfm=C:\Users\00247ATI\Golab\Unit1.dfm</Transaction>
+    <Transaction>2020/09/30 13:48:23.781,C:\Users\00247ATI\Golab\unCadFPgto.pas=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/30 14:12:52.641,=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/30 14:13:50.727,C:\Users\00247ATI\Golab\unBI.pas=C:\Users\00247ATI\Golab\Unit1.pas</Transaction>
+    <Transaction>2020/09/30 14:13:50.727,C:\Users\00247ATI\Golab\unBI.dfm=C:\Users\00247ATI\Golab\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

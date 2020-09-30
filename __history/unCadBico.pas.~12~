@@ -1,0 +1,124 @@
+unit unCadBico;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Vcl.DBCtrls, Vcl.StdCtrls, Vcl.Mask, Vcl.Buttons, Vcl.ExtCtrls, Data.Win.ADODB;
+
+type
+  TFormCadBico = class(TForm)
+    Panel1: TPanel;
+    btnGrava: TBitBtn;
+    btnCancela: TBitBtn;
+    btnAltera: TBitBtn;
+    btnNovoFunc: TBitBtn;
+    btnExclui: TBitBtn;
+    BitBtn1: TBitBtn;
+    Panel2: TPanel;
+    DBGrid1: TDBGrid;
+    btnPrimeiro: TBitBtn;
+    btnAnterior: TBitBtn;
+    btnProximo: TBitBtn;
+    btnUltimo: TBitBtn;
+    btnLocCod: TBitBtn;
+    Label1: TLabel;
+    DBEdit1: TDBEdit;
+    dsCadBico: TDataSource;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    DBEdit4: TDBEdit;
+    dsADOQueryCadBomba: TDataSource;
+    dsADOQueryCadTipoComb: TDataSource;
+    DBLookupComboBox1: TDBLookupComboBox;
+    DBLookupComboBox2: TDBLookupComboBox;
+    ADOQuery1: TADOQuery;
+    DataSource1: TDataSource;
+    ADOQuery1BICO: TIntegerField;
+    ADOQuery1TIPO: TStringField;
+    ADOQuery1DESC_BOMBA: TStringField;
+    ADOQuery1VALOR_LITRO: TBCDField;
+    ADOQuery1POSTO: TStringField;
+    procedure btnNovoFuncClick(Sender: TObject);
+    procedure btnPrimeiroClick(Sender: TObject);
+    procedure btnAnteriorClick(Sender: TObject);
+    procedure btnProximoClick(Sender: TObject);
+    procedure btnUltimoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormCadBico: TFormCadBico;
+
+implementation
+   uses unDM;
+{$R *.dfm}
+
+procedure TFormCadBico.btnAnteriorClick(Sender: TObject);
+begin
+DM.ADOQueryCadBico.Prior;
+btnProximo.Enabled := True;
+btnUltimo.Enabled := True;
+if DM.ADOQueryCadBico.Bof = True then
+ begin
+  btnPrimeiro.Enabled := False;
+  btnAnterior.Enabled := False;
+ end;
+end;
+
+procedure TFormCadBico.btnNovoFuncClick(Sender: TObject);
+begin
+Try
+ btnPrimeiro.Enabled := False;
+ btnAnterior.Enabled := False;
+ btnProximo.Enabled := False;
+ btnUltimo.Enabled := False;
+ btnLocCod.Enabled := False;
+ btnExclui.Enabled := False;
+ btnNovoFunc.Enabled := False;
+ btnAltera.Enabled := False;
+ (*panel1.Visible := True;
+ dblcNomeAlu.Enabled := False;
+ dblcMod1.Enabled := True;   *)
+ DM.ADOQueryCadBico.Append;
+ DBEdit1.SetFocus;
+Except
+ end;
+end;
+
+procedure TFormCadBico.btnPrimeiroClick(Sender: TObject);
+begin
+ DM.ADOQueryCadBico.First;
+ btnProximo.Enabled := True;
+ btnUltimo.Enabled := True;
+ btnPrimeiro.Enabled := False;
+ btnAnterior.Enabled := False;
+end;
+
+procedure TFormCadBico.btnProximoClick(Sender: TObject);
+begin
+DM.ADOQueryCadBico.Next;
+btnPrimeiro.Enabled := True;
+btnAnterior.Enabled := True;
+if DM.ADOQueryCadBico.Eof = True then
+ begin
+   btnProximo.Enabled := False;
+   btnUltimo.Enabled := False;
+ end;
+end;
+
+procedure TFormCadBico.btnUltimoClick(Sender: TObject);
+begin
+DM.ADOQueryCadBico.Last;
+btnPrimeiro.Enabled := True;
+btnAnterior.Enabled := True;
+btnProximo.Enabled := False;
+btnUltimo.Enabled := False;
+end;
+
+end.

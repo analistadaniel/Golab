@@ -1,0 +1,98 @@
+object FormBI: TFormBI
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Evolu'#231#227'o de Abastecimento'
+  ClientHeight = 463
+  ClientWidth = 770
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBChart1: TDBChart
+    Left = 0
+    Top = 71
+    Width = 769
+    Height = 394
+    Title.Text.Strings = (
+      'TDBChart')
+    TabOrder = 0
+    DefaultCanvas = 'TGDIPlusCanvas'
+    ColorPaletteIndex = 13
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 769
+    Height = 65
+    TabOrder = 1
+    object GroupBox1: TGroupBox
+      Left = 0
+      Top = 5
+      Width = 570
+      Height = 60
+      Caption = ' Selecione Pe'#237'odo que deseja analisar '
+      TabOrder = 0
+      object SpeedButton1: TSpeedButton
+        Left = 448
+        Top = 18
+        Width = 97
+        Height = 26
+        Cursor = crHandPoint
+        Caption = 'Gerar Gr'#225'fico'
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+  object DateTimePicker1: TDateTimePicker
+    Left = 257
+    Top = 24
+    Width = 137
+    Height = 21
+    Date = 44104.601623067130000000
+    Time = 44104.601623067130000000
+    TabOrder = 2
+  end
+  object DateTimePicker2: TDateTimePicker
+    Left = 71
+    Top = 24
+    Width = 137
+    Height = 21
+    Date = 44104.601753634270000000
+    Time = 44104.601753634270000000
+    TabOrder = 3
+  end
+  object StaticText1: TStaticText
+    Left = 48
+    Top = 28
+    Width = 17
+    Height = 17
+    Caption = 'De'
+    TabOrder = 4
+  end
+  object StaticText2: TStaticText
+    Left = 230
+    Top = 28
+    Width = 21
+    Height = 17
+    Caption = 'At'#233
+    TabOrder = 5
+  end
+  object dsADOQueryBI: TDataSource
+    DataSet = ADOQueryBI
+    Left = 688
+    Top = 16
+  end
+  object ADOQueryBI: TADOQuery
+    Connection = DM.ADOConnection1
+    Parameters = <>
+    Left = 608
+    Top = 16
+  end
+end

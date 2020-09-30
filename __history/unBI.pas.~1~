@@ -1,0 +1,24 @@
+unit unBI;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TFormBI = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormBI: TFormBI;
+
+implementation
+  uses UnDM;
+{$R *.dfm}
+
+end.

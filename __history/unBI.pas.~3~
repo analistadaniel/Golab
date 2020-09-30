@@ -1,0 +1,30 @@
+unit unBI;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, VclTee.TeeGDIPlus, Vcl.ExtCtrls,
+  VCLTee.TeEngine, VCLTee.TeeProcs, VCLTee.Chart, VCLTee.DBChart, Data.DB,
+  Data.Win.ADODB;
+
+type
+  TFormBI = class(TForm)
+    DBChart1: TDBChart;
+    Panel1: TPanel;
+    dsADOQueryBI: TDataSource;
+    ADOQueryBI: TADOQuery;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormBI: TFormBI;
+
+implementation
+  uses UnDM;
+{$R *.dfm}
+
+end.

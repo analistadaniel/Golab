@@ -1,0 +1,47 @@
+object FormBI: TFormBI
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Evolu'#231#227'o de Abastecimento'
+  ClientHeight = 463
+  ClientWidth = 770
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBChart1: TDBChart
+    Left = 0
+    Top = 71
+    Width = 769
+    Height = 394
+    Title.Text.Strings = (
+      'TDBChart')
+    TabOrder = 0
+    DefaultCanvas = 'TGDIPlusCanvas'
+    ColorPaletteIndex = 13
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 769
+    Height = 65
+    TabOrder = 1
+  end
+  object dsADOQueryBI: TDataSource
+    DataSet = ADOQueryBI
+    Left = 688
+    Top = 16
+  end
+  object ADOQueryBI: TADOQuery
+    Connection = DM.ADOConnection1
+    Parameters = <>
+    Left = 608
+    Top = 16
+  end
+end
